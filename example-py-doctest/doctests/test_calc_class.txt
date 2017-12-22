@@ -1,0 +1,44 @@
+The ``com.automationpanda.example.calc_class`` module
+=====================================================
+
+>>> from com.automationpanda.example.calc_class import Calculator
+
+>>> calc = Calculator()
+
+>>> calc.add(3, 2)
+5
+
+>>> calc.subtract(3, 2)
+1
+
+>>> calc.subtract(2, 3)
+-1
+
+>>> calc.multiply(3, 2)
+6
+
+>>> calc.divide(3.0, 2.0)
+1.5
+
+>>> calc.divide(1.0, 0)
+Traceback (most recent call last):
+    ...
+ZeroDivisionError: float division by zero
+
+>>> calc.maximum(3, 2)
+3
+
+>>> calc.maximum(2, 3)
+3
+
+>>> calc.maximum(3, 3)
+3
+
+>>> calc.minimum(3, 2)
+2
+
+>>> calc.minimum(2, 3)
+2
+
+>>> calc.minimum(2, 2)
+2

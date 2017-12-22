@@ -1,0 +1,2 @@
+# Add pytest options here
+[pytest]
