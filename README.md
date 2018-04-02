@@ -4,3 +4,6 @@ This repository contains example projects for the
 from [Automation Panda](https://automationpanda.com/).
 Each folder in this repository is a separate example project.
 Please refer to each project's README for more information.
+
+Also, here's a video link to a talk I delivered at PyData Carolinas 2016 about Python testing:
+[Testing is Fun in Python!](https://www.youtube.com/watch?v=Sb2tz9Hlbp8)
