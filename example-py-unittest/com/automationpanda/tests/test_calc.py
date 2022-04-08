@@ -91,4 +91,5 @@ if __name__ == '__main__':
         testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
         failfast=False,
         buffer=False,
-        catchbreak=False)
+        catchbreak=False,
+    )
